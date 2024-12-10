@@ -1,0 +1,24 @@
+#fractal-tree {
+  position: fixed;
+  top: 40px;  
+  right: 50px;
+  z-index: 10;
+  margin-bottom: 40px; 
+}
+
+#fractal-tree .p5Canvas {
+  width: 500px !important;
+  height: 500px !important;
+  opacity: 0.7;
+}
+
+
+#fractal-tree:hover .p5Canvas {
+  opacity: 0.9;
+}
+
+@media only screen and (max-width: 600px) {
+  #fractal-tree {
+    display: none;
+  }
+}
