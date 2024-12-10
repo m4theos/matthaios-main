@@ -45,7 +45,7 @@ class Projects extends React.Component {
       "matheos.me": {
         desc: "A modern, interactive portfolio website built with React.js featuring smooth animations, dynamic content loading, and responsive design.",
         techStack: "React.js, JavaScript, CSS3",
-        link: "https://github.com/m4theos/Matthaios",
+        link: "https://github.com/m4theos/matthaios-main",
         open: "https://matheos.me"
       },
       "MAnycast2": {
