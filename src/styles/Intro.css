@@ -87,47 +87,51 @@ b {
 
 @media only screen and (max-width: 600px) {
   #intro {
+    width: 100%;
     min-height: unset;
-    padding: 0px;
+    padding: 40px 20px;
     margin: 0;
     display: flex;
-    align-items: center;    /* Center vertically */
-    justify-content: center;  /* Center horizontally */
-    padding-top: -20px;
-    text-align: center;    /* Center all text */
-  }
-
-  .intro-title, .intro-name {
-    font-size: 40px;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
   .Typist {
-    font-size: 40px;
-    margin-bottom: 20px;
+    width: 100%;
     text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
   }
 
-  .intro-subtitle {
-    display: none;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    font-size: 28px;
+  .intro-title, 
+  .intro-name {
+    width: 100%;
+    font-size: 40px;
     text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro-subtitle{
+    display: none;
   }
 
   .intro-desc {
+    width: 90%;  /* Slightly less than 100% to ensure proper margins */
+    max-width: 100%;
     font-size: 18px;
     text-align: center;
-    max-width: 100%;
-    padding-bottom: 30px;
+    margin: 20px auto;
+    padding: 0;
     line-height: 1.5;
-    margin: 0 auto;  /* Center the text block */
   }
 
   .intro-contact {
+    width: auto;
     font-size: 16px;
-    margin: 0 auto;  /* Center the button */
+    margin: 20px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,5 +139,12 @@ b {
     padding: 12px 25px;
   }
 
-
+  /* Force center alignment for fade-in sections */
+  .fade-in-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
