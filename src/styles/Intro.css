@@ -97,7 +97,7 @@ b {
     text-align: center;
   }
 
-  .Typist {
+  #intro .Typist {
     width: 100%;
     text-align: center;
     font-size: 40px;
@@ -105,8 +105,8 @@ b {
     padding: 0;
   }
 
-  .intro-title, 
-  .intro-name {
+  #intro .intro-title, 
+  #intro .intro-name {
     width: 100%;
     font-size: 40px;
     text-align: center;
@@ -114,12 +114,12 @@ b {
     padding: 0;
   }
 
-  .intro-subtitle{
+  #intro .intro-subtitle {
     display: none;
   }
 
-  .intro-desc {
-    width: 90%;  /* Slightly less than 100% to ensure proper margins */
+  #intro .intro-desc {
+    width: 90%;
     max-width: 100%;
     font-size: 18px;
     text-align: center;
@@ -128,7 +128,7 @@ b {
     line-height: 1.5;
   }
 
-  .intro-contact {
+  #intro .intro-contact {
     width: auto;
     font-size: 16px;
     margin: 20px auto;
@@ -139,8 +139,7 @@ b {
     padding: 12px 25px;
   }
 
-  /* Force center alignment for fade-in sections */
-  .fade-in-section {
+  #intro .fade-in-section {
     width: 100%;
     display: flex;
     flex-direction: column;
