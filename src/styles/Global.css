@@ -10,4 +10,18 @@
   --white: #e6f1ff;
   --green-bright: #64ffda;
   --green-tint: rgba(100, 255, 218, 0.1);
+  --back: #081930;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: var(--back) !important;
+  min-height: 100vh;
+}
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    background-color: var(--back);
+  }
 }
